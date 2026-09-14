@@ -1,6 +1,11 @@
 # Money Manager Backend
 
 ![CI](https://github.com/YOUR_USERNAME/money-manager-backend/actions/workflows/ci.yml/badge.svg)
+![.NET](https://img.shields.io/badge/.NET-10.0-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework%20Core-8B5CF6)
+![JWT](https://img.shields.io/badge/JWT-Authentication-black?logo=jsonwebtokens&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 A RESTful API for managing personal finances built with ASP.NET Core and PostgreSQL.
 
