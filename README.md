@@ -1,5 +1,7 @@
 # Money Manager Backend
 
+![CI](https://github.com/YOUR_USERNAME/money-manager-backend/actions/workflows/ci.yml/badge.svg)
+
 A RESTful API for managing personal finances built with ASP.NET Core and PostgreSQL.
 
 ## Features
