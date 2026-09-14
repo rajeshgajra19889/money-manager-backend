@@ -56,6 +56,12 @@ Add your secrets to `appsettings.Development.json`:
 }
 ```
 
+## Deployment
+
+- **Backend** — deployed on [Render](https://render.com) via the included `Dockerfile`. Config comes from env vars (`ConnectionStrings__Default`, `Jwt__*`).
+- **Database** — PostgreSQL on [Neon](https://neon.tech).
+- **Frontend** — Angular client deployed as a static site on Render. Live at [money-manager-client-492h.onrender.com](https://money-manager-client-492h.onrender.com).
+
 ## License
 
 MIT
