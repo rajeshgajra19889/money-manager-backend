@@ -37,7 +37,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddCors(o => o.AddPolicy("client", p => p
-    .WithOrigins("http://localhost:4200", "http://127.0.0.1:4200")
+    .AllowAnyOrigin()
     .AllowAnyHeader()
     .AllowAnyMethod()));
 
