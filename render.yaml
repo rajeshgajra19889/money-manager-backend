@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: money-manager-backend
+    runtime: dotnet
+    buildCommand: dotnet publish -c Release -o _render
+    startCommand: dotnet ExpenseTracker.Api.dll
+    envVars:
+      - key: ConnectionStrings__Default
+        sync: false
+      - key: Jwt__Key
+        sync: false
+      - key: Jwt__Issuer
+        value: ExpenseTracker.Api
+      - key: Jwt__Audience
+        value: ExpenseTracker.Client
+      - key: Jwt__AccessTokenMinutes
+        value: "720"
